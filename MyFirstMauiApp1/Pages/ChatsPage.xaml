@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   xmlns:models="clr-namespace:MyFirstMauiApp1.Models"
+             x:Class="MyFirstMauiApp1.Pages.ChatsPage"
+             Title="WhatsApp">
+        
+        <!--contacts list format-->
+    <StackLayout Orientation="Vertical">
+
+        <!--contact details-->
+        <StackLayout Orientation="Horizontal" Padding="10">
+            <Frame Padding="0" CornerRadius="45" HeightRequest="70">
+            <Image Source="Cody.jpg" Aspect="AspectFit"></Image>
+            
+            </Frame>
+            
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="  Cody" FontAttributes="Bold" FontSize="21"></Label>
+                    <Label Text="  11:55"  FontSize="18" Margin="190,0,0,0"></Label>
+                </StackLayout>
+                <Label Text="  What's Up bro"  FontSize="21"></Label>
+
+            </StackLayout>
+        </StackLayout>
+        <!--contact details-->
+        <StackLayout Orientation="Horizontal" Padding="10">
+            <Frame Padding="0" CornerRadius="45" HeightRequest="70">
+                <Image Source="Cody.jpg" Aspect="AspectFit"></Image>
+
+            </Frame>
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text=" Tristan" FontAttributes="Bold" FontSize="21"></Label>
+                    <Label Text="  11:55"  FontSize="18" Margin="180,0,0,0"></Label>
+                </StackLayout>
+                <Label Text="Bro get here soon"  FontSize="21"></Label>
+
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10">
+            <Frame Padding="0" CornerRadius="45" HeightRequest="70">
+                <Image Source="cody.jpg" Aspect="AspectFit"></Image>
+
+            </Frame>
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text=" Mickey " FontAttributes="Bold" FontSize="21"></Label>
+                    <Label Text="  11:55"  FontSize="18" Margin="175,0,0,0"></Label>
+                </StackLayout>
+                <Label Text=" We Partying like crazy "  FontSize="21"></Label>
+
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
+
+   
+</ContentPage>
